@@ -4,13 +4,22 @@
 # Modify the program so that the last five seconds of the counter
 # are displayed in words, i.e. five, four, three, two, one.
 #
-import time
+# import time
 
-countdown = int(input("Enter the number of seconds to count down: "))
+# countdown = int(input("Enter the number of seconds to count down: "))
 
-while countdown > 0:
-    print(countdown)
-    countdown -= 1
-    time.sleep(1)  # Wait for 1 second
 
-print("Time's up!")
+# words = ["one", "two", "three", "four", "five"];
+# while countdown > 0:
+#     # print(countdown)
+
+#     if(countdown <= 5): print(words[countdown-1]);
+#     else: print(countdown);
+
+
+#     countdown -= 1
+#     time.sleep(1)  # Wait for 1 second
+
+# print("Time's up!")
+
+# 4.8

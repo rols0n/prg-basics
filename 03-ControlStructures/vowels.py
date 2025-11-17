@@ -6,8 +6,18 @@ vowels = "aeiouAEIOU"
 vowel_count = 0
 
 # Count vowels in the text
-for char in text:
-    if char in vowels:
-        vowel_count += 1
+# for char in text:
+#     if char in vowels:
+#         vowel_count += 1
+
+
+currentState = 0;
+text_length = len(text);
+
+while currentState < text_length:
+    char = text[currentState];
+    if(char in vowels):
+        vowel_count+=1;
+    currentState+=1;
 
 print(f"The number of vowels in the text is: {vowel_count}")

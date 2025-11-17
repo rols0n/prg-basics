@@ -180,32 +180,92 @@
 # Encrypts text using Caesar Code, shifting each letter
 # in the alphabet right one position
 #
-plain_text = 'The early bird catches the worm'
-encrypted_text = '';
 
-# alphabet = []
 
-for char in plain_text:
-    # read the character's code (use ord())
+# plain_text = 'The early bird catches the worm';
+
+
+# encrypted_text = ''
+
+# for char in plain_text:
+#     # read the character's code (use ord())
+
+#     # print(ord(char));
+
+#     order = ord(char);
+
+#     # add one to the character's code
+#     order+=1;
+#     # replace new character code with its
+#     # print(chr(ord(char)+1))
+
+#     # corresponding character (use chr())
+#     # add encrypted character to encrypted text
+#     encrypted_text+=chr(order);
+
+# print(plain_text)
+# print(encrypted_text)
+
+
+
+# 4.6
+###
+# Calculates the sum of even numbers from 1 to a given number N
+#
+# N = 10
+# sum_even = 0
+
+# Calculate the sum of even numbers
+# for i in range(1, N + 1):
+#     if i % 2 == 0:
+#         sum_even += i
+
+# currentNum = 1;
+# while currentNum <= N:
+#     if(currentNum % 2 == 0): sum_even+=currentNum;
+
+#     currentNum+=1;
+
+
+
+
+
+# print(f"The sum of even numbers from 1 to {N} is: {sum_even}")
+
+# 6.3
+
+###
+# House lighting with three bulbs and two switches
+# Checking how many bulbs are illuminating the house
+#
+# light_switch1 = True # False - switch off, True - switch on
+# light_switch2 = True
+# bulbs_on = 0
+# if light_switch1:
+#     bulbs_on += 1
+# if light_switch2:
+#     bulbs_on += 2;
+# print(bulbs_on)
+
+###
+# Password validator
+# New password is at least 12 characters long
+# #
+# new_password = input('Enter new password: ')
+# if len(new_password) < 12:
+#    print('Password too short (min. 12 chars)') 
+
+###
+# Program that simulates the operation of an electronic thermometer.
+# 33, 30, 8, 0, -2
+
+# statements = ["extreamly hot", "hot", "warm", "a warning. Frost!" ]
+
+
+# text = "It is ";
+# temperature = 32
+# if temperature > 35:
     
-    # print(F"Index of char {plain_text.index(char)}")
-
-    index = plain_text.index(char);
-
-    encrypted_text += plain_text[index - 1];
-
-    
-
-
-    # add one to the character's code
-    
-    # replace new character code with its
-    # corresponding character (use chr())
-    
-    # add encrypted character to encrypted text
-    
-
-print(plain_text)
-print(encrypted_text)
-
-# print(plain_text[2]);
+# elif temperature > 30:
+#     print ...
+# elif 
